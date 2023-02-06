@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:6033/cadastroDB
+    username: root
+    password: sft6033
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    open-in-view: false

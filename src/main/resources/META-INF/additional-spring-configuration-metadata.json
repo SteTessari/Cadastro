@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "cadastroDB",
+      "type": "java.lang.String",
+      "description": "Description for cadastro.banco.nome."
+  }
+] }
