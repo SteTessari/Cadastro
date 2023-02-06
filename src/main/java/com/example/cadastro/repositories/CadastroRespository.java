@@ -5,11 +5,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
-import java.util.UUID;
 
 @Repository
-public interface CadastroRespository extends JpaRepository<Pessoa, UUID> {
+public interface CadastroRespository extends JpaRepository<Pessoa, Long> {
 
     Optional<Pessoa> findById(Long id);
 
+    void deleteById(Long id);
 }
